@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import logging
 
 
-from app.core.config import APP_TITLE, APP_DESCRIPTION, APP_VERSION
+from app.core.config import APP_TITLE, APP_DESCRIPTION
 from app.core.logging_config import setup_logging
 from app.api import endpoints as api_endpoints
 from app.services import vector_store
