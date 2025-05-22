@@ -56,6 +56,5 @@ async def read_root():
     logger.info("Root endpoint accessed.")
     return {
         "message": f"Welcome to the {APP_TITLE}",
-        "version": APP_VERSION,
         "docs_url": "/docs",
     }
